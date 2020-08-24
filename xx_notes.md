@@ -4,17 +4,23 @@
 
  * Yhteiskehittämiselle oma kappale
  * Termimuutoksia:
-     * Operointi -> tuotanto
-     * Testays -> laadunvarmistus
+     * <del>Operointi -> tuotanto</del>
+     * <del>Testaus -> laadunvarmistus</del>
  * Kehitystiimit tilaavat resurssit tilataan yhden henkilön kautta.
- * DoDin kannalta tuotantoa vastaa testausympäristö, jossa tuotteenoistaj voi käyttää ominaisuutta.
- * Kehitys+testaus tapahtuu samassa sprintissä. Erillinen QA myöhennin kuten myös tuotaantoonlaitto.
+ * <del>DoDin kannalta tuotantoa vastaa testausympäristö, jossa tuoteomistaja voi käyttää ominaisuutta.</del>
+ * <del>Kehitys+testaus tapahtuu samassa sprintissä. Erillinen QA myöhennin kuten myös tuotaantoonlaitto.</del>
  * Esituotanto -> (kehtysympäristö), testiymäristö, tuotantoympäristö
- * PRät hyväksyy Turun kaupunging tekninen projektipäällikkö
+ * <del>PRät hyväksyy Turun kaupunging tekninen projektipäällikkö</del>
  * Kirjautuminen Tunnistamon kautta (OpenID) tarkemmat ohjeet tavitaan.
  * CIssä Travis ja Jenkins käytössä
  * Repossa ohjeet ympäristön pystytykseen.
  * Vagrantin käyttö
+ 
+ 
+Selvitä pikaviestimen käyttäminen
+ 
+Selvitä kenen kanssa / miten testaus ja tuotanto resurssit hankitaan. Vai jätetäänkö kirjaamatta, jolloin oletetaan, että kaupungin edustajalla on asiasta tietämys.
+
 
 ## Keskeneräistä sisältöä ja ajatuksia
 
@@ -24,7 +30,7 @@
  * Projektin tuotokset
  * Käytetyt työkalut ja niihin liittyvät toimintamallit
  * Toteutusteknologiat ja niiden valinta
- * Ohjelmiston rakenne ja koodin muotoilu
+* Ohjelmiston rakenne ja koodin muotoilu
  * Projektinhallinta
  * Versionhallinta
  * Dokumentaatio
@@ -43,11 +49,8 @@
 
 
 Minkälainen paketointi?
-
 Operointi IT-palvelulle
-
 Monitoroinnit miten on hoidettu?
-
 Tämän kehityksen huomioiminen aikatauluarvionnissa, konfiguroinnit ja asennus dokumentaatio
 
 

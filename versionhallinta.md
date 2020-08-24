@@ -2,44 +2,57 @@
 
 # Versionhallinta
 
-> Gitflow malli ei ole erityisen ketterä. Se tukee huonosti
-> nykyaikaista muutoksesta tuotantoon ajatusta. Lähestymistavassa iso
-> määrä koodia kasataan ennen päivityksen tekemistä ja tämä
-> hankaloittaa virhetilanteiden selvittämistä (mahdollisia vikakohtia
-> on paljon). Lähestymistapa vaatii, että versioiden sisällöt on
-> suunniteltu hyvin etukäteen. Lisäksi helposti käy niin, että syntyy
-> useita tuettuja versioita, jotka syövät kehitysresursseja.
->
-> Lisäksi lähestymistapa vaatii useamman CI-jobin kuin yksinkertaisemmat lähestymistavat.
+## Gitflow
 
 Projektien lähdekoodit ja muut tarpeelliset resurssit versioidaan
-git-työkalulla. Gitin käytössä käytetään ns. Gitflow lähestymistapaa
-(https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). Kehitys
-tapahtuu aina omassa haarassaan, joka liitetään develop-haaraan. Kun
-halutut ominaisuudet on saatu kuntoon develop haarassa koodit
-liitetään master-haaraan ja uusi versio julkaistaan.
+git-työkalulla. Gitin käytössä käytetään
+ns. [Gitflow-lähestymistapaa](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow). Kehitys
+tapahtuu aina omassa haarassaan, joka lopulta liitetään
+`develop`-haaraan. Kun halutut ominaisuudet on saatu kuntoon `develop`
+haarassa, julkaisu erotetaan omaksi haarakseen. Lopulta jukaistu uusi
+versio liitetään `master`-haaraan.
 
-Kun koodia ollaan liittämässä develop-haaraan, siitä on tehtävä
-ns. pull request. Tullakseen liitetyksi koodi tarvitsee XXXX.
+Versiot tägätään versionhallintaan muodossa "v1.2.3". Julkaisu
+viimeistellään haarassa `release/v1.2` (huomaa, että viimennen
+ns. patch-versionumero puuttuu).  Kun julkaisu on täysin valmis se
+liitetään `master`-haaraan ja julkaisuhaara suljetaan/.
 
-> Yleensä pull requestin liittäminen voi vaatia esimerkiksi, että
-> yksikkötestit menevät lävitse, staattiset koodi analysaattorit eivät
-> löydä huomautettavaa ja kaksi kehittäjää puoltaa koodin liittämistä.
-> 
-> Kehittäjien puolto on hankala asia tilattaessa koodia
-> ulkopuolelta. Ostotiimillä on erityisen kovat paineet saada asioita
-> aikaiseksi ja kaikkien firmojen tapauksessa ei ole todennäköistä,
-> että kehittäjät torppaisivat toistensa koodia.
->
-> Mahdollisia malleja on tiimien yli menevä ristiin
-> katselmointi. Ongelmana tässä on, että jos katselmoijalla ei ole
-> mitään suhdetta katselmoitavaan koodiin, ei katselmoijalla ole
-> suurta intressiä koodin laadun tarkkailuun.
->
-> Ostettaessa koodia ulkopuolelta tilaajan olisi hyvä tarkkailla
-> koodin laatua. Välttämättä tämä ei resurssien puuteen vuoksi ole
-> mahdollista. Pelkkä pull requestien lukeminen alkaa myös puuduttaa
-> hyvin nopeasti.
+Jos tuotannon versiota on paikattava julkaisusyklin ulkopuolella
+(ns. hotfix), aloitetaan korjaaminen tägätystä versiosta käyttäen
+haaraa, `release/v1.2`.  Korjauksen ollessa valmis versio julkaistaan
+normaalisti. Haara liitetään sekä `master`-haaraan, että
+`develop`-haaraan.
+
+## Pull requestit
+
+Kun koodia ollaan liittämässä `develop`-haaraan, se on tehtävä pull
+requestin kautta.  Tullakseen liitetyksi koodi tarvitsee Turun
+kaupungin teknisen projektipäällikön sekä vähintään yhden
+tiiminjäsenen puollon.
+
+Pull requestin (PR) yhteydessä on tärkeä huomata, että tarkoituksena on
+yhteisesti nostaa koodin laatua. Kyseessä ei ole vastakkainasettelu,
+jossa toteuttaja yrittää saada omat tekeleensä mahdollisimman nopeasti
+hyväksytyksi. Jos PR hyväksytään ilman kommentin kommenttia, kukaan ei
+todennäköisesti oppinut mitään. Katselmoijien tehtävänä on tarjota
+tuoreet silmäparit, joitka eivät ole vielä sokaistuneet toteuttajan
+keräämistä oletuksista.
+
+Katselmoijien tulee tarkistaa, että PR sisältää vain tarpeelliset
+muutokset ja ns. commit-viestit on kirjoitettu oikein ja
+kuvaavasti. Kaikkia projektissa sovittuja muotoseikkoja on
+noudatettava. Tuotetun koodin pitää olla testattu ja toimivaa. Jos
+jotakin mekaniikkaa on muutettu vastaavat dokumentaatiot ja
+mahdolliset muut osiot myös päivitettävä. Esimerkiksi jos projektin
+kääntäminen muuttuu tulee readme-tiedosto tietysti muuttaa
+ajantasalle. Tämän lisäksi mahdolliset CI-työt joudutaan pävittämään.
+
+Ei ole olemassa, mitään yksiselitteistä mittaria koodin
+laadulle. Nyrkkisääntönä on, että jos katselmoijalle joudutaan
+selittämään miten koodi toimii, koodin laatu ei ole riittävällä
+tasolla.
+
+## Commit viestit
 
 Versionhallintaan tehtävien muutosten kommenttien on viitattava
 tehtävänhallinan tehtävään. Itse kuvaus kirjoitetaan muodossa, joka
@@ -48,11 +61,19 @@ englanniksi.
 
     User can remove unnecessary address from address list (JIRA-1234)
 
-> Commit-viestien muodon kanssa kannattaa olla tarkkana. Jos jokainen
-> kehittäjä kirjoittelee omalla tyylillään repo on äkkiä
-> sotkussa. Toisaalta pitää olla resursseja vahtia, että sääntöjä
-> noudatetaan
-
 Versionhallinta kommenteista on siivottava toisiaan korjaavat
-muutokset pois ennen koodien liittämistä päähaaraan.
+muutokset pois ennen koodien liittämistä päähaaraan. Seuraavan
+kaltaisen historian liittäminen ei ole hyväksyttävää.
 
+    3: Added file forgoten from last commit
+    2: Fix'd topic that was missing from previous commit
+    1: All topics are capitalised
+
+Muutokset tulee liittää yhdeksi ehjäksi muutokseksi.
+
+Toisaalta erillisiä muutoksia on syytä käyttää, jotta työn vaiheistus
+ja oikeellisuuden tarkastaminen on mahdollista. Esimerkiksi tiedoston
+sisennyksien uudelleen järjestelyä ja varsinaista muutosta ei saa
+tehdä samassa muutoksessa. Katselmoijan on käytännössä mahdoton lukea,
+mitä on muuttunut. Sen sijaan muutos pitää toteuttaa toistensa päälle
+rakentuvilla peräkkäisillä muutoksilla.

@@ -15,7 +15,7 @@ Riippumatta toteutustekniikasta projektilla tulee olla seuraavat resurssit käyt
  * Versionhallinta
  * Tehtävienhallinta
  * CI-ympäristö
- * Esituotantoympäristö
+ * Testiympäristö
  * Tuotantoympäristö
  
 > näiden lisäksi erillinen testausympäristö? Tuotetaanko palveluista
@@ -26,4 +26,4 @@ Kehitystiimin vastuulla on huolehtia, että nämä ovat kunnossa ja
 tiimillä on kyvykkyys saada tuote käyttöön. Esituotanto- ja
 tuotantoympäristöt järjestetään pyytämällä XXXX. Tuotteen
 päivittäminen tapahtuu toimittamalla se XXXXX, jossa se ensin
-testataan. 
+testataan.

@@ -2,6 +2,15 @@
 
 # CI-ympäristö
 
+
+> **---Kommentti---**
+>
+> Tällä hetkellä ei ole yhtenäistä CI-ympätistöä.
+> Tietohallinnon ympäristö on kuvattu wikissä, joka kannattanee linkittää tähän.
+>
+> **---Kommentti---**
+
+
 CI-järjestelmänä on käytössä XXXX. Järjestelmään lisätään uusia töitä XXXX.
 
 Projektilla tulee olla CI-järjestelmässä seuraavat työt:
@@ -29,9 +38,3 @@ versionhallinnassa. Kehittäjän on pystyttävä suorittamaan samat temput
 omalla koneellaan kuin mitä CI-järjestelmä tekee. Tämä helpottaa
 ongelmien korjaamista ja paikantamista.
 
-> Tästä puuttuu automaatio muutosten viemiseksi automaattisesti
-> tuotantoon. Lisäksi pitää miettiä miten CI-järjestelmä
-> konfiguroidaan. Esimerkiksi Jiran tapauksessa olisi hyvä käyttää
-> ohjelmallista rajapintaa. Tämä on toisaalta monelle tiimille
-> yksistään liian hankala vaatimus. Tällöin voidaan yleisesti
-> käytetyille projektityypeillä määritellä valmiit työt.

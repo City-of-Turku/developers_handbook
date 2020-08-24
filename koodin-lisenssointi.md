@@ -2,6 +2,10 @@
 
 # Koodin lisenssointi
 
-Minkälainen lisenssointipolitiikka halutana määritellä? Vai halutaanko määritellä minkäälaista?
+Turun kaupunki määrittelee projekti kohtaisesti koodin lisenssoinin.
 
-Turun kaupunki määrittelee projekti kohtaisen lisenssoin
+> **---Kommentti---**
+>
+>  - Odottaa kaupungin linjausta. Lähtökohtaisesti MIT-lisenssi?
+>
+> **---Kommentti---**
