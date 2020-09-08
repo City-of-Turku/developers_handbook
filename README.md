@@ -28,9 +28,10 @@ toimittaa tekemällä pull requestin.
   
 ## Vaatimukset
 
- * [Projektilla on oltava readme tiedosto](./0001-readme-vaaditaan.md)
- * [Projektin kääntymisen on oltava toistettavaa](./0002-toistettavat-buildit.md)
- * [Projektin tiedosto- ja hakemistorakenteen on oltava kuvaava.md](./0003-kuvaava-projektin-rakenne.md)
+ * [Projektilla on oltava readme tiedosto](./vaatimukset/0001-readme-vaaditaan.md)
+ * [Projektin kääntymisen on oltava toistettavaa](./vaatimukset/0002-toistettavat-buildit.md)
+ * [Projektin tiedosto- ja hakemistorakenteen on oltava kuvaava.md](./vaatimukset/0003-kuvaava-projektin-rakenne.md)
+ * [Väärin muotoiltujen lähdekooditiedostojen pitää estää projektin kääntyminen](./vaatimukset/0004-virheellinen-muotoilu-estaa-buildin.md)
  * Tekniset vaatimukset projektien paketointiin, monitorointiin etc.
  * Saavutettavuus
  * Tietosuoja
