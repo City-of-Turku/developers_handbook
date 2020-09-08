@@ -21,6 +21,7 @@ toimittaa tekemällä pull requestin.
   * [Ohjelmointikielet ja kirjastot](./ohjelmointikielet-ja-kirjastot.md)
   * [Arkkitehtuuri](./arkkitehtuuri.md)
 * Ei Panun kirjoitettavissa / odottaa lisätietoja:
+  * [Yhteiskehittäminen](./yhteiskehittaminen.md)
   * [CI-Ympäristö](./ci-ymparisto.md)
   * [Projektin infrastruktuuri](./projektin-infra.md) 
   * [Pääsynhallinta](./paasynhallinta.md)
