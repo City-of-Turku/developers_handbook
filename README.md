@@ -18,13 +18,13 @@ toimittaa tekemällä pull requestin.
    * [Versionhallinta](./versionhallinta.md)
    * [Definition of Done](./definition-of-done.md) 
 * Sisältö merkittävästi kesken: 
-  * [CI-Ympäristö](./ci-ymparisto.md)
-  * [Projektin infrastruktuuri](./projektin-infra.md)
-  * [Pääsynhallinta](./paasynhallinta.md)
   * [Ohjelmointikielet ja kirjastot](./ohjelmointikielet-ja-kirjastot.md)
   * [Arkkitehtuuri](./arkkitehtuuri.md)
-
-
+* Ei Panun kirjoitettavissa / odottaa lisätietoja:
+  * [CI-Ympäristö](./ci-ymparisto.md)
+  * [Projektin infrastruktuuri](./projektin-infra.md) 
+  * [Pääsynhallinta](./paasynhallinta.md)
+  
 ## Vaatimukset
 
  * [Projektilla on oltava readme tiedosto](./0001-readme-vaaditaan.md)
