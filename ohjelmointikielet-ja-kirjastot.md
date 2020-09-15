@@ -60,3 +60,6 @@ tarkastamiseen käytetään `eslint`:n lisäosaa
 Lisäksi reactin kanssa käytetään
 [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)-lisäosaa.
 
+## SQL
+
+SQL-koodi kirjoitetaan [SQL Style Guide](https://www.sqlstyle.guide/) mukaisesti.
