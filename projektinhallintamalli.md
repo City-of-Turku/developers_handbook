@@ -31,7 +31,9 @@ valmiiksi.  Tavoite on, että kaikki on valmista sprintin
 päätöspalaveriin mennessä.  Toteutukset ovat käytössä
 testiympäristössä, jossa tuoteenomistaja voi ne hyväksyä.  Tiimin
 suorituskyvyn laskennan kannalta kannalta tarina on joko täysin
-toteutettu tai täysin toteuttamatta.
+toteutettu tai täysin toteuttamatta. Projektitiimin tuottaa ns. [burn
+down -kaavio](https://en.wikipedia.org/wiki/Burn_down_chart) sprintin
+etenemisestä. 
 
 Vaikka toteutukset eivät lähtökohtaisesti saa venyä sprintin ylitse,
 väistämättä näin joskus käy. Tilanteesta tulee oppia ja tehdä
