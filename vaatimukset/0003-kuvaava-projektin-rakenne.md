@@ -3,7 +3,7 @@
 # Projektin rakenteen ja nimeämisen pitää kuvastaa sovelluksen toimintaa
 
 Tyypillinen tapa rakentaa projekti on jakaa projekti käytetyn
-frameworking mukaisiin osiin. Nämä nimet ovat hyvin geneerisiä ja
+frameworkin mukaisiin osiin. Nämä nimet ovat hyvin geneerisiä ja
 johtavat esimerkiksi seuraavankaltaiseen hakemistolistaukseen
 projektin päätasoilla.
 
@@ -36,5 +36,5 @@ seuraavasti:
    
 Luonnollisesti käytetyt työkalut ja tekniikat luovat nimeämiseen omat
 rajoitteensa. Järkevän rakenteen luomiseen kannattaa kuitenkin käyttää
-vaivaa, koska koodia kirjoitetaan viimekädessä ihmiselle. Tietokone
+vaivaa, koska koodia kirjoitetaan viime kädessä ihmiselle. Tietokone
 ymmärtää koodin rakenteesta riippumatta.

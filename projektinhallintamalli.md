@@ -13,10 +13,10 @@ Sprintin pituudeksi on sovittu 2 viikkoa. Sprintti aloitetaan
 maanantaina aloituspalaverilla ja lopetetaan seuraavan viikon
 perjantaina tulosten katselmoinnilla, jota seuraa retrospektiivi.
 
-Tuotteomistajan (product owner) vastuulla on, että työlista (backlog)
+Tuoteomistajan (product owner) vastuulla on, että työlista (backlog)
 on kunnossa ja ajan tasalla. Viimeistään sprintin alkaessa tehtävillä
 on oltava kuvaus ja kokoarvio. Yleensä tämä vaatii vaihtelevan määrän
-suunnittelupalavereita sprintin aikana. Viimekädessä tuoteomistajan on
+suunnittelupalavereita sprintin aikana. Viime kädessä tuoteomistajan on
 pidettävä huoli, että hän saa tehtäviin riittävästi palautetta
 tiimiltä.
 
@@ -29,7 +29,7 @@ retrospektiivejä).
 Tiimi vastaa siitä, että se saa sprintin aikana lupaamansa asiat
 valmiiksi.  Tavoite on, että kaikki on valmista sprintin
 päätöspalaveriin mennessä.  Toteutukset ovat käytössä
-testiympäristössä, jossa tuoteenomistaja voi ne hyväksyä.  Tiimin
+testiympäristössä, jossa tuoteomistaja voi ne hyväksyä.  Tiimin
 suorituskyvyn laskennan kannalta kannalta tarina on joko täysin
 toteutettu tai täysin toteuttamatta. Projektitiimin tuottaa ns. [burn
 down -kaavio](https://en.wikipedia.org/wiki/Burn_down_chart) sprintin

@@ -14,7 +14,7 @@ Käyttäjätarina on tehty, kun
 Tiimin on hyvä sopia tuoteomistajan kanssa kyseiseen projektiin sopiva
 definition of done -määritys. Se kannattaa myös tulostaa näkyvälle
 paikalle tiimihuoneessa. Määritelmää suunniteltaessa pitää muistaa,
-että DoDin tarkoitus on viimekädessä varmistaa, että asian
+että DoDin tarkoitus on viime kädessä varmistaa, että asian
 toteuttamisesta ei jää piilotyötä tuleviin sprintteihin vaan asia on
 oikeasti toteutettu loppuun asti. Pelkästään koodien laittaminen
 versionhallintaan harvoin riittää siihen, että toiminnallisuus on

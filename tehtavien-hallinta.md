@@ -5,7 +5,7 @@
 ## Käyttäjätarinat
 
 Tehtävienhallinnassa on käytössä useita eri järjestelmiä (mm. Trello
-ja Jira). Tässä ei opastata järjestelmien yksityiskohaiseen käyttöön
+ja Jira). Tässä ei opasteta järjestelmien yksityiskohtaiseen käyttöön
 vaan annetaan perusperiaatteet tehtävienhallinnan käyttämisestä.
 
 Ketterissä projekteissa käytetään perinteisesti
@@ -28,10 +28,10 @@ Esimerkiksi:
  > "User wants to login using Google account, so he does not need to remember yet another password."
  > "Käyttäjä haluaa kirjautua Google-tunnuksilla, jotta hänen ei tarvitse muistaa taas uutta salasanaa."
  
-On tärkeä, että kaikki kolme (kuka,mitä,miksi) kohdat ovat esilliä
-tarinassa. Valmista sabluunaa tulee käyttää ohjenuorana, sille se
+On tärkeä, että kaikki kolme (kuka,mitä,miksi) kohdat ovat esillä
+tarinassa. Valmista sapluunaa tulee käyttää ohjenuorana, sille se
 varmistaa, että kaikki osat tulevat mietityiksi ja
-kirjatuiksi. Toisaalta, mitä ytimekäämmin ja yksiselitteisisesti asiat
+kirjatuiksi. Toisaalta, mitä ytimekkäämmin ja yksiselitteisesti asiat
 voidaan ilmaista, sen selkeämpää tekeminen on. Tekstien hiominen onkin
 osa suunnitteluprosessia. Yllä olevat asiat voidaan ilmaista hiukan
 sulavammin ilman, että tarinoiden muoto varsinaisesti muuttuu:
@@ -40,7 +40,7 @@ sulavammin ilman, että tarinoiden muoto varsinaisesti muuttuu:
  > "Käyttäjä haluaa kirjautua Google-tunnuksilla välttyäkseen uuden salasanan muistamiselta."
  
 Jos mahdollista sana "käyttäjä" kannattaa korvata tarkemmalla roolin
-nimellä ("ylläpitäjä", "matkustaja" jne.). Eritysesti niissä
+nimellä ("ylläpitäjä", "matkustaja" jne.). Erityisesti niissä
 tapauksissa, joissa kehittäjät tai ylläpitäjät vaativat jotakin
 ominaisuutta tämä olisi hyvä merkitä.
 
@@ -58,21 +58,21 @@ kohdallaan miettiä, mitkä roolit ovat järjestelmälle oleellisia.
 Tekniset tehtävät kirjoitetaan käyttäjätarinoiksi, jotta
 kuka-mitä-miksi -mietintä tulee tehtyä ja kirjattua. Tämä voi johtaa
 välillä hiukan kankeisiin tarinoihin. Lukijan kannalta on kuitenkin
-yksinkertaisinta, että tehtävinen muoto ei merkittävästi muutu
-tehtävästä toiseen siiryttäessä.
+yksinkertaisinta, että tehtävien muoto ei merkittävästi muutu
+tehtävästä toiseen siirrytäessä.
 
 > "Kehittäjä haluaa JMXän olevan käytössä tuotannossa, jotta järjestelmän metriikka on nähtävillä."
 
-Tämä on todennäköisesti tuotteomistajallekin selkeämmin ymmärrettävä
-asia kuin lakoneinen "JMX tuotantoon" -tehtävä.
+Tämä on todennäköisesti tuoteomistajallekin selkeämmin ymmärrettävä
+asia kuin lakoninen "JMX tuotantoon" -tehtävä.
 
 ## Bugit
 
 Bugeja, eli järjestelmän virheellistä toimintaa, on hankala kuvata
-käyttäjätarinoilla. Käyttäjätarinat kertovat miten jäjestelmän pitäisi toimia.
+käyttäjätarinoilla. Käyttäjätarinat kertovat miten järjestelmän pitäisi toimia.
 
 Käytännössä käyttäjätarinan toteutus on ollut
-puuttellinen, jos toiminnallisuuteen liittyy virheellistä
+puutteellinen, jos toiminnallisuuteen liittyy virheellistä
 toimintaa. Lähtökohtaisesti bugit tulisi korjata ennen kuin
 toteutuksen kanssa mennään tuotantoon. Tarina ei valmistu ennen kuin
 se on kunnolla toteutettu. Näissä tilanteissa varsinaista bugia ei ole
@@ -96,10 +96,10 @@ syntyä tilanne, jossa järjestelmässä vika on niin syvällä, että sen
 korjaaminen ei onnistu yhdellä askeleella. Tällöin korjaukset tulee
 kirjoittaa käyttäjätarinoilla.
 
- > "Bug: Järjestelmä kaatuu täydenkuun aikaan, pitäisi toimia myös kuutmolla."
+ > "Bug: Järjestelmä kaatuu täydenkuun aikaan, pitäisi toimia myös kuutamolla."
  >  - "Kehittäjä haluaa järjestelmän käyttävän samaa aikavyöhykettä, jotta vertailuissa vältytään virheiltä."
  >  - "Kehittäjä haluaa tietokantaan auringon asennolle oman tilan, jotta vuorokaudenaikaa ei tarvitse arvata."
- >  - "Kehittäjä haluua säilyttää Kustaa Vilkunan Almanakasta tulevan kuun tilan, jotta oman laskentaa ei tarvitse ylläpitää."
+ >  - "Kehittäjä halua säilyttää Kustaa Vilkunan Almanakasta tulevan kuun tilan, jotta oman laskentaa ei tarvitse ylläpitää."
  
 Tämä tekee tuoteomistajallekin selväksi, mitä askelia on otettava
 bugin korjaamiseksi. Mikropalveluiden aikakaudella on myös

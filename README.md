@@ -7,24 +7,21 @@ toimittaa tekemällä pull requestin.
 
 ## Käytänteet ja työkalut
 
- * Sisältö valmis, kieliasu kaipaa viimeistelyä:
-   * [Ohjelmistokehityksen vaiheet](./vaiheet.md)
-   * [Projektinhallintamalli (Scrum)](./projektinhallintamalli.md)
-   * [Viestintä](./viestinta.md) 
-   * [Koodin lisenssointi](./koodin-lisenssointi.md)
-   * [Dokumentaatio](./dokumentaatio.md)
-   * [Versiointi](./versiointi.md)
-   * [Tehtävien hallinta](./tehtavien-hallinta.md)
-   * [Versionhallinta](./versionhallinta.md)
-   * [Definition of Done](./definition-of-done.md) 
-   * [Ohjelmointikielet](./ohjelmointikielet-ja-kirjastot.md)
-* Sisältö merkittävästi kesken: 
-  * [Arkkitehtuuri](./arkkitehtuuri.md)
-* Ei Panun kirjoitettavissa / odottaa lisätietoja:
-  * [Yhteiskehittäminen](./yhteiskehittaminen.md)
-  * [CI-Ympäristö](./ci-ymparisto.md)
-  * [Projektin infrastruktuuri](./projektin-infra.md) 
-  * [Pääsynhallinta](./paasynhallinta.md)
+ * [Ohjelmistokehityksen vaiheet](./vaiheet.md)
+ * [Projektinhallintamalli (Scrum)](./projektinhallintamalli.md)
+ * [Viestintä](./viestinta.md) 
+ * [Koodin lisensointi](./koodin-lisensointi.md)
+ * [Dokumentaatio](./dokumentaatio.md)
+ * [Versiointi](./versiointi.md)
+ * [Tehtävien hallinta](./tehtavien-hallinta.md)
+ * [Versionhallinta](./versionhallinta.md)
+ * [Definition of Done](./definition-of-done.md) 
+ * [Ohjelmointikielet](./ohjelmointikielet-ja-kirjastot.md)
+ * [Arkkitehtuuri](./arkkitehtuuri.md)
+ * [Yhteiskehittäminen](./yhteiskehittaminen.md)
+ * [CI-Ympäristö](./ci-ymparisto.md)
+ * [Projektin infrastruktuuri](./projektin-infra.md) 
+ * [Pääsynhallinta](./paasynhallinta.md)
   
 ## Vaatimukset
 
@@ -42,10 +39,10 @@ toimittaa tekemällä pull requestin.
 #### Koodin laatu
 
 
-##### (Yksikkö)testien on oltava nopeita (alle 2min).
+##### (Yksikkö)testien on oltava nopeita (alle 2 minuuttia).
 
 Järjestelmän yksikkötestien ajamiseen ei tulisi kulua muutamia
-sekuntteja kauempaa. Ison järjestelmän ollessa kyseessä testien
+sekunteja kauempaa. Ison järjestelmän ollessa kyseessä testien
 ajamiseen käytetty aika luonnollisesti kasvaa. Aika ei kuitenkaan saa
 ylittää 2 minuuttia.
 
@@ -56,7 +53,7 @@ järjestelmän testaamisen.
 
 Testiajat pysyvät lyhyenä, kun testit eivät tarvitse toimiakseen
 jatkuvasti oikeaa tietokantaa, tiedostoja yms. Näiden käyttö tulee
-erotaa helposti korvattavissa olevalla rajapinnalla, jotta testit
+erottaa helposti korvattavissa olevalla rajapinnalla, jotta testit
 voivat korvata ne testitoteutuksella. Sen sijaan, että jokainen testi
 testaisi sivutuotteenaan myös tietokantaa kannattaa tietokannan
 toimintaan liittyvät testit jakaa omaksi kokonaisuudekseen.
@@ -81,7 +78,7 @@ assert. Testien nimissä pyritään seuraavaan muotoon.
     [Testattavan_metodin_nimi]_should_[haluttu_lopputulos]_when_[tilanne]
     
 Jos osilla ei ole merkitystä niistä voidaan luopua. Samoin metodin
-nimi voidaan joutua korvaamaan yleisemmällä testattvalla asialla,
+nimi voidaan joutua korvaamaan yleisemmällä testattavalla asialla,
 jotta nimi olisi kuvaavampi.
 
 Esimerkki testi:
@@ -109,9 +106,9 @@ Yksinkertaisimmissa tapauksissa arrange-osuudesta voidaan luopua.
  
 Yleensä osa kehitysvaiheessa tarpeellisista testeistä muuttuu
 tarpeettomiksi toiminnallisuuden valmistuessa. Tämän takia myös testit
-on muokattava helposti ymmärettävään ja muokattavaan muotoon. Usein
+on muokattava helposti ymmärrettävään ja muokattavaan muotoon. Usein
 tämä tarkoittaa testien yhdistämistä ja poistamista. Testit ovat
-viimekädessä ajantasaisin dokumentaatio siitä, mitän järjestelmän on
+viime kädessä ajantasaisin dokumentaatio siitä, miten järjestelmän on
 ajateltu toimivan.
 
  
@@ -127,24 +124,24 @@ kaikki tilanteet tulisivat katetuksi.
 
 #### Suorituskyky
 
-##### Järjestelmän on reagoitava käyttäjän toimenpiteisiin näkyvästi alle 500ms
+##### Järjestelmän on reagoitava käyttäjän toimenpiteisiin näkyvästi alle 500 ms
 
-Järjestelmän on reagoitava käyttäjän syötteeseen alle 500ms. Jos
+Järjestelmän on reagoitava käyttäjän syötteeseen alle 500 ms. Jos
 käyttäjä käynnistää raskaan operaation, jota ei ole mahdollista
 suorittaa näin nopeasti, järjestelmä voi esimerkiksi ilmoittaa
 operaation käynnistyneen ja arvion toimenpiteen kestosta.
 
 Vaatimusta tarkennetaan tilaajan toimesta projektikohtaisesti.
 
-##### Järjestelmän on reagoitava näkyvästi käyttäjän toimenpiteisiin 99.9% tapauksissa alle 100ms
+##### Järjestelmän on reagoitava näkyvästi käyttäjän toimenpiteisiin 99.9% tapauksissa alle 100 ms
 
-> Tämä on esimerkkinä. En tiedä kannattaako lähteä yleisesti määrittelemään näin tarkaa tilannetta.
+> Tämä on esimerkkinä. En tiedä kannattaako lähteä yleisesti määrittelemään näin tarkkaa tilannetta.
 > Projektikohtaisesti nämä kannattaa määritellä.
 
 
 #### Tietoturva
 
-##### Järjestelmän turvallisuus ei saa perustua toimintalogiikan sallassapitämiseen
+##### Järjestelmän turvallisuus ei saa perustua toimintalogiikan salassapitämiseen
 
 Järjestelmän tietoturvaa mietittäessä tulee lähteä siitä, että järjestelmän
 toiminta on kaikkien tiedossa. Järjestelmän tulee suunnitella siten, että
@@ -153,7 +150,7 @@ toiminnasta. Lähdekoodien, rajapintojen ja salausalgoritmien tunteminen ei saa
 helpottaa hyökkääjän toimintaa.
 
 Esimerkiksi tieto rajapinnan olemassaolosta ei saa mahdollistaa sen luvatonta
-kutsumista.  Tämän sijaan kutsujat on tunnitettava ja valtuutettaa
+kutsumista.  Tämän sijaan kutsujat on tunnistettava ja valtuutettava
 oikein. Tietojen salaus pitää olla rakennettu niin, että salatussa muodossa
 olevat tiedot voidaan antaa hyökkääjälle ja kertoa miten ne on salattu,
 vaarantamatta tietoturvaa.
@@ -163,9 +160,9 @@ vaarantamatta tietoturvaa.
 
 Versionhallintaan ei lähtökohtaisesti tallenneta salasanoja ollenkaan. Tietyissä
 tilanteissa provisiointi (ympäristön automaattinen pystyttäminen) voi vaatia
-salasanojen tallentamista koodien yhteyteen. Tälläisessa tilanteesa salasanat
-tulee salata algoritmilla, jonka salausavaimen vahvuus on vähintää 128
-bittiä. Tälläisessa tilanteessa on myös mietittävä kuinka salausavaimen jakelu
+salasanojen tallentamista koodien yhteyteen. Tällaisessa tilanteessa salasanat
+tulee salata algoritmilla, jonka salausavaimen vahvuus on vähintään 128
+bittiä. Tällaisessa tilanteessa on myös mietittävä kuinka salausavaimen jakelu
 ja kierrättäminen hoidetaan turvallisesti. Salausavainta ei saa tallentaa
 versionhallintaan.
 
@@ -220,13 +217,13 @@ tilasta esimerkiksi tulostamalla ns. stack trace ruudulle virheen sattuessa.
 Tämä on tyypillisesti oletustapa käsitellä järjestelmässä syntyneet
 virheet. Vaikka tiedoista ei olisikaan varsinaista hyötyä,
 oletusvirheilmoitusten käyttäminen antaa hyökkääjälle kuvan, että järjestelmän
-virheen käsittelyä ei ole mietitty kunnolla. Tämä voi houkuttaa hyökkäjiä
+virheen käsittelyä ei ole mietitty kunnolla. Tämä voi houkuttaa hyökkääjiä
 järjestelmän kimppuun.
 
 
 ##### Virheilmoituksen pitää sisältää tunniste virhetilanteeseen
 
-Virhetilanteen syntyessä käyttäjelle on kerottava, miten hän voi korjata
+Virhetilanteen syntyessä käyttäjälle on kerrottava, miten hän voi korjata
 syntyneen ongelman. Tukeen yhteyden ottamista varten käyttäjälle voidaan kertoa
 generoitu tunniste (esim. "virheen tunniste 8c244ce8"). Tunniste on hyvä lisätä
 myös logeihin. Tällöin tuki löytää juuri tämän virhetilanteen helposti.
@@ -260,12 +257,12 @@ Järjestelmän tuottamat tulosteet ovat siistittävä siten, että ulostulomuodo
 syntaksia ei voida rikkoa. Hyvin yksinkertaisena esimerkkinä tuotettaessa
 "-merkeillä ympäröityjä merkkijonoja on mietittävä, miten ratkaistaan tilanne,
 jossa data itsessään pitää sisällään "-merkin. Yleinen tapa on sopia syntaksi,
-jolla voidaan osoittaa varatun merkin olevan osa dataa (esim \-merkki).
+jolla voidaan osoittaa varatun merkin olevan osa dataa (esim. \-merkki).
 
      "Esimerkissä "-merkki on ongelmallinen"   # Virheellinen muoto. Ei ole selvää missä jono loppuu
      "Esimerkissä \"-merkki on ongelmallinen"  # Esimerkiksi näin
 
-Se, miten tuotettua dataa joudutaan käytännössä siistimään riippu paljon itse
+Se, miten tuotettua dataa joudutaan käytännössä siistimään, riippuu paljon itse
 järjestelmästä. Tyypillisiä tilanteita on SQL-kutsujen tuottaminen kantaa varten
 tai HTML-sivujen rakentaminen selaimelle vietäväksi. Yleensä siistiminen
 hoidetaan kirjastojen avulla. Virheet näissä tilanteissa johtavat muun muassa
@@ -276,8 +273,8 @@ mahdollisuuteen.
 Logi on yksi ulostulon muoto, joka helposti sivuutetaan. Vaikka kirjasto
 huolehtisi ulostulon siistimisen sinänsä voi olla, että se ei rajaa tulosteen
 pituutta. Jos virhetilanteissa logitetaan käyttäjän lähettämä kutsu
-sellaisenaan,voi tämä mahdollistaa hyökkäyksen,joss logiin tuotetaan
-giga-tolkukka roskaa.
+sellaisenaan,voi tämä mahdollistaa hyökkäyksen, jossa logiin tuotetaan
+gigatolkukka roskaa.
 
 Viittauksissa ulkoisiin järjestelmiin tai komentorivien käskyjen tuottamisessa
 on oltava myös tarkkana. Jos järjestelmä käyttää käyttäjän syötettä
@@ -361,11 +358,11 @@ tietojaan on katsellut ja miksi.
 Tietoturvaloukkauksista on ilmoitettava lain mukaan 72 tunnin kuluessa
 tietosuojavaltuutetun toimistoon. Turun kaupunki huolehtii ulkoisesta
 viestinnästä ja tietoturvaloukkausten ilmoittamisesta. Tämä vaatii, että
-kaupunki on tietoinen loukkauksesta. Mahdollisesta loukauksesta on ilmoitettava
+kaupunki on tietoinen loukkauksesta. Mahdollisesta loukkauksesta on ilmoitettava
 kaupungin edustajalle viipymättä.
 
-Tietoturvaloukkauksia ovat muunmuassa murtautumiset järjestelmään, salaisten
-tietojen puutteellinen suojaus (verkkolevyt, rajapinnat yms), perusteeton logien
+Tietoturvaloukkauksia ovat muun muassa murtautumiset järjestelmään, salaisten
+tietojen puutteellinen suojaus (verkkolevyt, rajapinnat yms.), perusteeton logien
 katselu tai tietokannan selaaminen.
 
 
@@ -374,7 +371,7 @@ katselu tai tietokannan selaaminen.
 Kehittäjän on hyvä tutustua [Turun tietosuoja
 sivuun](http://www.turku.fi/tietosuoja).  Tämän lisäksi on varmistuttava, että
 sovellukseen liittyvä [rekisteriseloste](https://rekisteri.turku.fi/Saabe_data/)
-on ajantasalla. Käyttäjästä ei saa kerätä mitään tietoja, joiden tallentamiseen
+on ajan tasalla. Käyttäjästä ei saa kerätä mitään tietoja, joiden tallentamiseen
 hän ei ole erikseen antanut lupaa.
 
 Lupa on muistettava pyytää, jos käyttäjää seurataan esimerkiksi analytiikkaa
@@ -388,9 +385,9 @@ ulos järjestelmästä. Tietojen tulee olla käyttäjälle helposti luettavissa 
 hyödynnettävässä muodossa.
 
 Jos kyseisen kaltaiseen tietoon ei ole olemassa yleisesti käytössä olevaa
-tiedostomuotoa, käytetään json muotoa.
+tiedostomuotoa, käytetään JSON-muotoa.
 
-##### Järjestelmän on mahdollistettava käyttäjien tietojen tuohoaminen
+##### Järjestelmän on mahdollistettava käyttäjien tietojen tuhoaminen
 
 Järjestelmän on mahdollistettava käyttäjän kaikkien tietojen poistaminen, joita
 kaupunki ei tarvitse lakisääteisten velvollisuuksien hoitamisessa.
@@ -403,24 +400,24 @@ kuukauden pituuteen (jos lait ja asetukset eivät muuta vaadi).
 
 #### Järjestelmän monitorointi
 
-##### Projektien tulee tarjota metriikka statsd muodossa
+##### Projektien tulee tarjota metriikka statsd-muodossa
 Sovelluksen tulee lähettää sovelluksen metriikat
 [statsd](https://github.com/statsd/statsd) muodossa kyseisen palvelimen porttiin
 8125, josta ne voidaan tarvittaessa toimittaa eteenpäin.
 
-Metriika on toimitettava:
+Metriikka on toimitettava:
 
    * Rersurssipoolien koosta ja käytetyistä resursseista.
    * Käsiteltyjen pyyntöjen määrästä ja kestosta operaatiokohtaisesti.
    
    
-##### Logi tuotetaan JSON muodossa stdout-virtaan
+##### Logi tuotetaan JSON-muodossa stdout-virtaan
 
-Järjestelmän tulee tuottaa logi suorana tulosteena normaaliin stdout:iin JSON muodossa.
+Järjestelmän tulee tuottaa logi suorana tulosteena normaaliin stdout:iin JSON-muodossa.
 
 Viestin pitää sisältää vähintään seuraavat kentät:
 
-* msg - viesti
+  * msg - viesti
   * level - viestin taso (critical, error, warning, info, debug, trace)
   * time - tapahtumaaika (UTC) muodossa "2020-09-16T10:08:00.123Z".
   * corrId - Correlation id, UUID, joka pysyy samana saman kontekstin (esim. palvelimelle tehty pyyntö) lokiriveille.
@@ -434,7 +431,7 @@ Esimerkiksi:
 Turun kaupungin web-järjestelmien taso on [WCAG
 2.1](https://www.w3.org/TR/WCAG21/)-määritelmän mukainen AA-taso. Chrome
 selaimen Lighthouse-työkalua voidaan käyttää kehittäjän apuna saavutettavuus
-ongelmien löytämisessä. Samoin
+ongelmien löytämisessä.
  
 # Muuta ajattelemisen aihetta
 

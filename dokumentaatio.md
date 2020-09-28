@@ -19,7 +19,7 @@ tärkeässä roolissa.
 Koodissa seassa olevan dokumentaation ("kommenttien") tulee käyttää
  vain tarvittaessa. Tällöinkin lukijalle tulee kertoa, miksi jokin
  asia tehdään, ei miten se tehdään. Koodin itsessään tulee olla
- selvästi virheetöntä ja ymmärettävää, jolloin siitä voi jokainen
+ selvästi virheetöntä ja ymmärrettävää, jolloin siitä voi jokainen
  lukea itse mitä siinä tapahtuu. Aina jos dokumentaatiossa joudutaan
  selittämään, mitä koodi tekee on syytä pysähtyä, miettimään voisiko
  koodin kirjoittaa jotenkin paremmin.
@@ -33,9 +33,9 @@ asiat heitä kiinnostavat.
 Tyypillisiä asioita, jotka usein jätetään dokumentoimatta ovat
  - ratkaisussa käytetyt yleisesti tunnettujen algoritmien nimet,
  - miksi juuri tämä algoritmi on valittu,
- - käytettyn algoritmin käyttäytyminen eri tilanteissa (kompleksisuus)
+ - käytetyn algoritmin käyttäytyminen eri tilanteissa (kompleksisuus)
  - säijeturvallisuus,
- - missä tilantessa ja miten metodi on tarkoitettu käytettäväksi.
+ - missä tilanteessa ja miten metodi on tarkoitettu käytettäväksi.
 
    
 > **---Kommentti---**

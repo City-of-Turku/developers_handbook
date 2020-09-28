@@ -7,7 +7,7 @@ poistetaan tarve keskustella pull requestien käsittelyn yhteydessä koodin
 muotoilusta.
 
 Projektin on kuvattava lähdekooditiedostojen muotoilu sekä muotoilusääntöjen
-käyttönottoaminen editoreissa. Tämä on hyvä hoitaa linkittämällä yleisiin
+käyttöönottoaminen editoreissa. Tämä on hyvä hoitaa linkittämällä yleisiin
 ohjeisiin, jolloin jokainen repo ei sisällä samoja ohjeita.
 
 Ohjeistusta asiaan voi lukea

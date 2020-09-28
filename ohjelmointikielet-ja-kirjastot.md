@@ -4,7 +4,7 @@
 
 ## Java
 
-Javan käyttöä pyritään vähentämään Javan lisenssointiin liittyvien riskien
+Javan käyttöä pyritään vähentämään Javan lisensointiin liittyvien riskien
 takia. Javalla tehtävien toteutusten on toimittava OpenJDK-jakelulla tai muulla
 laajasti tuetulla ilmaisella toteutuksella.
 
@@ -17,7 +17,7 @@ käytetään versiota 3.6.x.
 
 Palvelin toteutuksissa käytetään node.js versiota 12.x. Selaimessa
 käytetään EcmaScript-tasoa 6, koodi ajetaan ns. strict-tilassa ("use
-strict"). Totetusten on tuettava seuraavien selainten alle vuoden
+strict"). Toteutusten on tuettava seuraavien selainten alle vuoden
 vanhoja versioita
 
  - Microsoft Edge
@@ -31,7 +31,7 @@ vanhoja versioita
 Lähdekoodin muotoilun tarkoituksena on, että riippumatta koodin kirjoittajasta
 koodi näyttää samalta.  Koodi kirjoitetaan UTF-8 koodausta käyttäen.  Riivit
 päättyvät rivinvaihtoon (0x10). Koodin tuottamiseen käytetään pääasiassa Visual
-Studio Codea. Saman editorin käyttäminen helpottaa yhtenäisen mutoilun
+Studio Codea. Saman editorin käyttäminen helpottaa yhtenäisen muotoilun
 tuottamista.
 
 ## Java
