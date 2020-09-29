@@ -21,8 +21,6 @@ toimittaa tekemällä pull requestin.
  * [Arkkitehtuuri](./arkkitehtuuri.md)
  * [Yhteiskehittäminen](./yhteiskehittaminen.md)
  * [CI-Ympäristö](./ci-ymparisto.md)
- * [Projektin infrastruktuuri](./projektin-infra.md) 
- * [Pääsynhallinta](./paasynhallinta.md)
   
 ## Vaatimukset
 

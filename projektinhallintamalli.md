@@ -2,6 +2,16 @@
 
 # Projektinhallintamalli
 
+Riippumatta toteutustekniikasta projektilla tulee olla seuraavat resurssit käytössään.
+
+ * Versionhallinta
+ * Tehtävienhallinta
+ * CI-ympäristö
+ * Testiympäristö
+ * Tuotantoympäristö
+
+Kehitystiimin vastuulla on huolehtia, että nämä ovat kunnossa.
+
 Kehitystyössä käytetään
 [Scrum-viitekehystä](https://fi.wikipedia.org/wiki/Scrum).  Jos
 menetelmä itsesään on tuntematon voi siihen tutustua esimerkiksi
