@@ -17,6 +17,7 @@ toimittaa tekemällä pull requestin.
  * [Versionhallinta](./versionhallinta.md)
  * [Definition of Done](./definition-of-done.md) 
  * [Ohjelmointikielet](./ohjelmointikielet-ja-kirjastot.md)
+ * [Käyttöliittymä](./kayttoliittyma.md)
  * [Arkkitehtuuri](./arkkitehtuuri.md)
  * [Yhteiskehittäminen](./yhteiskehittaminen.md)
  * [CI-Ympäristö](./ci-ymparisto.md)

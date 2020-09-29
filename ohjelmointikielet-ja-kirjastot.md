@@ -17,14 +17,7 @@ käytetään versiota 3.6.x.
 
 Palvelin toteutuksissa käytetään node.js versiota 12.x. Selaimessa
 käytetään EcmaScript-tasoa 6, koodi ajetaan ns. strict-tilassa ("use
-strict"). Toteutusten on tuettava seuraavien selainten alle vuoden
-vanhoja versioita
-
- - Microsoft Edge
- - Google Chrome
- - Firefox
- - Safari
- - Opera
+strict").
 
 # Lähdekoodin muotoilu
 
