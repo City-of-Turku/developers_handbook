@@ -15,3 +15,4 @@ Viestin pitää sisältää vähintään seuraavat kentät:
 Esimerkiksi:
    
     {"time":"2020-09-15T15:11:12.113Z","level":"info","corrId":"9a63fcb6-3867-48d9-a5d1-edb4fd04042b","msg":"Application v1.2.3 started."}
+

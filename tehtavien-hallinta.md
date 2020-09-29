@@ -1,24 +1,24 @@
 [Takaisin päätasolle](./README.md)
 
-# Tehtävien hallinta
-
-## Käyttäjätarinat
+# Tehtävienhallinta
 
 Tehtävienhallinnassa on käytössä useita eri järjestelmiä (mm. Trello
 ja Jira). Tässä ei opasteta järjestelmien yksityiskohtaiseen käyttöön
 vaan annetaan perusperiaatteet tehtävienhallinnan käyttämisestä.
 
-Ketterissä projekteissa käytetään perinteisesti
-käyttäjätarinoita. Lähtökohtaisesti käyttäjätarinan pitäisi
-pystyä kuvaamaan kolme asiaa:
+## Käyttäjätarinat
 
- 1. Kuka?
- 2. Mitä?
- 3. Miksi?
+Tehtävät kuvataan ketterille menetelmille tyypilliseen tapaan käyttäjätarinoina.
+ Lähtökohtaisesti käyttäjätarinan pitäisi vastata kolmeen kysymykseen:
+
+ - Kuka?
+ - Mitä?
+ - Miksi?
  
-Projektista riippuen tehtävät ovat kirjoitettu joko suomeksi tai
-englanniksi. Asiat on pyrittävä kuvaamaan seuraavilla seuraavilla
-tekstipohjilla.
+Projektista riippuen tehtävät voidaan kirjoittaa joko suomeksi tai
+englanniksi. Kaikki projektin materiaali tulisi tehdä kuitenkin samaa kieltä
+käyttäen. Kielestä riippuen käyttäjätarinat kirjoitetaan lähtökohtaisesti
+seuraavalla kaavalla:
 
  - `WHO wants WHAT, so WHY.`
  - `KUKA haluaa MITÄ, jotta MIKSI.`
@@ -26,17 +26,19 @@ tekstipohjilla.
 Esimerkiksi:
  
  > "User wants to login using Google account, so he does not need to remember yet another password."
+ 
  > "Käyttäjä haluaa kirjautua Google-tunnuksilla, jotta hänen ei tarvitse muistaa taas uutta salasanaa."
  
-On tärkeä, että kaikki kolme (kuka,mitä,miksi) kohdat ovat esillä
-tarinassa. Valmista sapluunaa tulee käyttää ohjenuorana, sille se
-varmistaa, että kaikki osat tulevat mietityiksi ja
-kirjatuiksi. Toisaalta, mitä ytimekkäämmin ja yksiselitteisesti asiat
-voidaan ilmaista, sen selkeämpää tekeminen on. Tekstien hiominen onkin
-osa suunnitteluprosessia. Yllä olevat asiat voidaan ilmaista hiukan
-sulavammin ilman, että tarinoiden muoto varsinaisesti muuttuu:
+On tärkeä, että kaikki kolme (kuka,mitä,miksi) kohtaa ovat esillä
+tarinassa. Valmiiseen sapluunaan ei kannata hirttäytyä vaan käyttää sitä
+ohjenuorana. Sapluunan käyttö varmistaa, että kaikki osat tulevat mietityiksi ja
+kirjatuiksi. Mitä ytimekkäämmin ja yksiselitteisesti asiat voidaan ilmaista, sen
+selkeämpää tekeminen on. Käyttäjätarinoiden hiominen on osa
+suunnitteluprosessia. Yllä olevat asiat voidaan ilmaista hiukan sulavammin
+ilman, että tarinoiden muoto varsinaisesti muuttuu:
  
  > "User wants to login using Google account to avoid remembering yet another password."
+ 
  > "Käyttäjä haluaa kirjautua Google-tunnuksilla välttyäkseen uuden salasanan muistamiselta."
  
 Jos mahdollista sana "käyttäjä" kannattaa korvata tarkemmalla roolin

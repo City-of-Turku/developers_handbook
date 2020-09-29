@@ -10,7 +10,7 @@ käytetään iPhone 5:n ruutua (1136×640).
 
 [Saavutettavuusvaatimukset](./vaatimukset/0029-saavutettavuustaso-on-wcag-1-2-aa.md) tulee
 huomioida heti kehityksen alusta lähtien. Käyttöliittymät tulee testata
-esteellisyysnäkökulmat huomioiden normaalin kehityksen ohessa. Hyviä työkalija tähän ovat
+esteellisyysnäkökulmat huomioiden normaalin kehityksen ohessa. Hyviä työkaluja tähän ovat
 muun muassa
 
  - Selainliitännäiset Wave ja aXe.
@@ -21,7 +21,7 @@ muun muassa
    - Talkback (Android)
 
 Selaimelle tehtävien toteutusten on tuettava seuraavien selainten alle vuoden
-vanhoja versioita
+vanhoja versioita.
 
  - Microsoft Edge
  - Google Chrome

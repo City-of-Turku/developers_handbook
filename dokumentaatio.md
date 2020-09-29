@@ -2,46 +2,40 @@
 
 # Dokumentaatio
 
-Versionhallinnan tulee sisältää vähintään `readme.md`-tiedosto. Sen
-tulee kuvata vähintään, mistä projektissa on kyse ja miten projektin
-kehitysympäristö pystytetään.  Tämän lisäksi on hyvä kertoa
-mahdollisesti käytetyt tekniikat, projektin rakenne ja arkitehtuuri
-varsinkin, jos toteutuksessa on poikettu yleisistä malleista.
+Versionhallinnan tulee sisältää `readme.md`-tiedosto, joka kuvaa: mistä
+projektissa on kyse ja miten projektin kehitysympäristö pystytetään.  Tämän
+lisäksi on hyvä kertoa mahdollisesti käytetyt tekniikat, projektin rakenne ja
+arkkitehtuuri. Erityisesti on syytä kertoa, jos toteutuksessa on poikettu
+yleisistä tavoista tai käytänteistä.
 
-Yleisti ottaen tulee pyrkiä siihen, että projekti on ymmärettävä
-sellaisenaan. Käytännössä tämä tarkoittaa sitä, että lukijan tulisi
-yllättyä mahdollisimman vähän ja harvoin (["the principle of least
+On hyvä pyrkiä siihen, että projekti on ymmärrettävä sellaisenaan. Tämä
+tarkoittaa sitä, että lukijan tulisi yllättyä kohtaamistaan asioista
+mahdollisimman vähän (["the principle of least
 astonishment"](https://en.wikipedia.org/wiki/Principle_of_least_astonishment)).
-Projektin dokumentaation tulisi saada lukija heti oikeille
-raiteille. Tämän takia `readme.md`-tiedosto ja sen sisältö on
-tärkeässä roolissa.
+Projektin dokumentaation tulisi saada lukija heti oikeille raiteille. 
 
-Koodissa seassa olevan dokumentaation ("kommenttien") tulee käyttää
- vain tarvittaessa. Tällöinkin lukijalle tulee kertoa, miksi jokin
- asia tehdään, ei miten se tehdään. Koodin itsessään tulee olla
- selvästi virheetöntä ja ymmärrettävää, jolloin siitä voi jokainen
- lukea itse mitä siinä tapahtuu. Aina jos dokumentaatiossa joudutaan
- selittämään, mitä koodi tekee on syytä pysähtyä, miettimään voisiko
- koodin kirjoittaa jotenkin paremmin.
+Koodin seassa olevaa dokumentaatiota ("kommentteja") tulee käyttää vain
+tarvittaessa. Kommenteissa tulisi keskittyä kertomaan, miksi jokin asia tehdään,
+ei miten se tehdään. Koodi itsessään on kertomus siitä, miten asia tehdään.
+Jotta tämä onnistuu, on koodin oltava selvästi virheetöntä ja ymmärrettävää.
 
-Dokumentoitaessa julkisia rajapintoja on tärkeä kertoa metodin
-tarkoitus sekä käyttäytyminen, parametrien ja paluuarvojen arvoalueet.
-Dokumentaatiota kirjoittaessa tulee miettiä lukijan
-tarpeita. Minkälainen kohdeyleisö tekstiä pääasiassa lukee ja mitkä
-asiat heitä kiinnostavat.
-
-Tyypillisiä asioita, jotka usein jätetään dokumentoimatta ovat
- - ratkaisussa käytetyt yleisesti tunnettujen algoritmien nimet,
+Dokumentaatiota kirjoittaessa tulee miettiä lukijan tarpeita. Minkälainen
+kohdeyleisö tekstiä pääasiassa lukee ja mitkä asiat heitä
+kiinnostavat. Tyypillisiä asioita, jotka usein jätetään dokumentoimatta ovat
+ - missä tilanteessa, miten ja miksi ratkaisua on tarkoitettu käytettäväksi,
+ - parametrien ja paluuarvojen merkitys ja arvoalueet, 
+ - käyttäytyminen poikkeustilanteissa,
+ - ratkaisussa käytetyt yleisesti tunnetut algoritmit,
  - miksi juuri tämä algoritmi on valittu,
- - käytetyn algoritmin käyttäytyminen eri tilanteissa (kompleksisuus)
- - säijeturvallisuus,
- - missä tilanteessa ja miten metodi on tarkoitettu käytettäväksi.
+ - säieturvallisuus tai sen puute.
+ 
+Kaikki dokumentaatio kannattaa sijoittaa mahdollisimman lähelle koodia eli
+samaan versiohallintaan itse ohjelman kanssa. Muutettaessa ohjelman toimintaa
+tulisi dokumentaatio muuttaa samalla kertaa. Tätä on vaikea valvoa, jos muutosta
+ei voida tehdä samassa pull requestissa. Ohjekirjat yms. kannattaa pyrkiä
+julkaisemaan projektin versionhallinnasta sen sijaan, että niitä pidettäisiin
+yllä erillisinä dokumentteina jossakin muualla.
 
-   
-> **---Kommentti---**
->
->  - Mitä muuta dokumentaatiota halutaan ja minne? Palvelurekisteri, operointikuvaukset, käyttöohjeet?
->  - Pitää lisätä esimerkit
->
-> **---Kommentti---**
+
+
 

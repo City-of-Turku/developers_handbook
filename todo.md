@@ -9,11 +9,13 @@
   - Toteuttajakohtaisten asioiden poistaminen reposta (estää merget)
     - Kaupunkikohtaiset testiasetukset
     - Kaupunkien nimet yms.
+    
 - Arkkitehtuuri-luku:
   - Tässä olisi hyvä viitata järjestelmäkuvaukseen tjms.
   - Tunnistamo ottaminen käyttöön käytännössä.
   - Miten EU GDPR vaatimukset otetaan huomioon (käyttäjätietojen poisto ja kyseleminen?)
   - Jos tunnistamolla mennään järjestelmiin sisään miten uloskirjautuminen on hoidettu?
   - Miten autorisaatio ja ryhmien hallinta on toteutettu?
+
 
 

@@ -7,8 +7,9 @@ poistetaan tarve keskustella pull requestien käsittelyn yhteydessä koodin
 muotoilusta.
 
 Projektin on kuvattava lähdekooditiedostojen muotoilu sekä muotoilusääntöjen
-käyttöönottoaminen editoreissa. Tämä on hyvä hoitaa linkittämällä yleisiin
-ohjeisiin, jolloin jokainen repo ei sisällä samoja ohjeita.
+käyttöön ottaminen editoreissa. Paras tapa hoitaa tämä on linkittää yleisiin
+ohjeisiin. Yhteiset säännöt eri projekteissa vähentävät sekaannuksia.
+
 
 Ohjeistusta asiaan voi lukea
 [ohjelmointikielet](./../ohjelmointikielet-ja-kirjastot.md)-osuudesta.

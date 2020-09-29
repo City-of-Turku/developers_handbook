@@ -2,8 +2,8 @@
 
 # Salasanojen vertaileminen on tehtävä hash-arvojen avulla
 
-Käyttäjien salasanoja ei saa milloinkaan tallentaa selväkielisenä.  Salasanan
-vertaileminen esimerkiksi sisäänkirjautumistilanteessa on tehtävä
+Käyttäjien salasanoja ei tallenneta selväkielisinä.  Salasanan vertaileminen
+esimerkiksi sisäänkirjautumistilanteessa on tehtävä
 [hash-arvojen](https://en.wikipedia.org/wiki/Hash_function) avulla.  Salasanan
 hash-arvoa laskettaessa on käytettävä
 ns. [suolaa](https://en.wikipedia.org/wiki/Salt_(cryptography)). Yleisesti
@@ -15,7 +15,7 @@ Suolana voi käyttää mitä tahansa merkkijonoa, joka on jokaiselle salasanalle
 yksilöllinen. Toisin sanoen suolan tulee vaihtua, jos käyttäjä vaihtaa
 salasanansa. 
 
-Hashien tuottamiseen käytetään turvalliseksi tunnettua kryptokgrafista
+Hashien tuottamiseen käytetään turvalliseksi tunnettua kryptografista
 funktiota. Koska hash-algoritmeista löytyy aika ajoin turvallisuusongelmia,
 algoritmia joutuu tulevaisuudessa todennäköisesti vaihtamaan. Tämän takia
 käytetty algoritmi on hyvä merkitä ylös. Tallennettava merkkijono voi näyttä
