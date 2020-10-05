@@ -1,8 +1,9 @@
 [Takaisin päätasolle](./../README.md)
 
-#### Julkaisuversion rakentamisen on oltava toistettavaa
+# Projektin kääntämisen on oltava toistettavaa
 
-Järjestelmän on samassa versionhallinnan kohdassa oltava samanlainen
-eri ajanhetkinä. Käytännössä tämä tarkoittaa sitä, että ulkoisten
-riippuvuuksien versiot on kiinnitettävä ja oleellisia resursseja ei
-voida ladata palveluita, jossa ne voivat muuttua (tai poistua).
+Saman versionhallinnan kohdan on tuotettava samanlainen julkaisu joka kerta.
+Käytännössä tämä tarkoittaa sitä, että ulkoisten riippuvuuksien versiot on
+kiinnitettävä ja oleellisia resursseja ei voida ladata palveluista, jossa ne
+voivat muuttua (tai poistua). Tällaiset resurssit on sisällytettävä projektin
+versionhallintaan.

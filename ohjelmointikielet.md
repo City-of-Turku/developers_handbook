@@ -4,9 +4,9 @@
 
 ## Java
 
-Javan käyttöä pyritään vähentämään Javan lisensointiin liittyvien riskien
-takia. Javalla tehtävien toteutusten on toimittava OpenJDK-jakelulla tai muulla
-laajasti tuetulla ilmaisella toteutuksella.
+Javan käyttöä pyritään vähentämään lisensointiin liittyvien riskien
+takia. Oraclen työkalut ovat nykyään maksullisia ei-kehityskäytössä. Ongelmien
+välttämiseksi Javalla tehtävien toteutusten on toimittava OpenJDK-jakelulla.
 
 ## Python
 
@@ -17,21 +17,14 @@ käytetään versiota 3.6.x.
 
 Palvelin toteutuksissa käytetään node.js versiota 12.x. Selaimessa
 käytetään EcmaScript-tasoa 6, koodi ajetaan ns. strict-tilassa ("use
-strict"). Toteutusten on tuettava seuraavien selainten alle vuoden
-vanhoja versioita
-
- - Microsoft Edge
- - Google Chrome
- - Firefox
- - Safari
- - Opera
+strict").
 
 # Lähdekoodin muotoilu
 
 Lähdekoodin muotoilun tarkoituksena on, että riippumatta koodin kirjoittajasta
-koodi näyttää samalta.  Koodi kirjoitetaan UTF-8 koodausta käyttäen.  Riivit
-päättyvät rivinvaihtoon (0x10). Koodin tuottamiseen käytetään pääasiassa Visual
-Studio Codea. Saman editorin käyttäminen helpottaa yhtenäisen muotoilun
+koodi näyttää samalta. Yleisesti koodi kirjoitetaan UTF-8 koodausta käyttäen.
+Riivit päättyvät rivinvaihtoon (0x10). Koodin tuottamiseen käytetään pääasiassa
+Visual Studio Codea. Saman editorin käyttäminen helpottaa yhtenäisen muotoilun
 tuottamista.
 
 ## Java

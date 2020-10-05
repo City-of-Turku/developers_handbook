@@ -2,8 +2,4 @@
 
 # Yhteiskehittäminen
 
-> **---Kommentti---**
->
-> Tähän on tarkoitus kuvata kaupunkien ja muiden tahojen yhteiskehittämisen käytännöt.
->
-> **---Kommentti---**
+> Luku odottaa sisältöä

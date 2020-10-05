@@ -7,4 +7,4 @@ käynnistää raskaan operaation, jota ei ole mahdollista suorittaa näin nopeas
 järjestelmä voi esimerkiksi ilmoittaa operaation käynnistyneen ja arvion
 toimenpiteen kestosta.
 
-Vaatimusta tarkennetaan tilaajan toimesta projektikohtaisesti.
+Vaatimusta tarkennetaan kaupungin toimesta projektikohtaisesti.

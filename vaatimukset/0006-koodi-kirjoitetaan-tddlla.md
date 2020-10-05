@@ -2,16 +2,15 @@
 
 # Kaikki koodi tuotetaan kirjoittamalla testi ensin
 
-Koodia tuotetaan _aina_ seuraavalla syklillä:
+Ohjelmistot rakennetaan [TDD-metodologialla](https://en.wikipedia.org/wiki/Test-driven_development):
 
  1. Tehdään testi halutulle toteutukselle
  2. Ajetaan testi. Testiajon tulee epäonnistua (toteutus puuttuu).
- 3. Toteutus
- 4. Ajeteaan testit. Testiajo onnistuu. (Jos ei palataan edelliseen kohtaan)
+ 3. Toteutus.
+ 4. Ajetaan testit. Testiajo onnistuu. (Jos ei palataan edelliseen kohtaan)
  6. Siistitään toteutus ja testi.
  7. Onnistunut ajo.
  5. Aloitetaan aluista.
-
 
 Testin tulee olla selkeästi kirjoitettu ja sen tulee dokumentoida toteutettu
 toiminnallisuus. Testikoodi on esimerkki kuinka toteutusta on tarkoitus

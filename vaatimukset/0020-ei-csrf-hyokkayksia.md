@@ -4,9 +4,9 @@
 
 Järjestelmän on varmistuttava, että kutsua ei ole generoitu 3. osapuolen
 toimesta luvatta. Esimerkiksi jos tietoja voidaan tuhota GET-pyynnöllä
-osoitteeseen `/resurssi/123/delete`, voi ulkopuolinen hyökkäysivusto saada
+osoitteeseen `/resurssi/123/delete`, voi ulkopuolinen hyökkäyssivusto saada
 käyttäjän selaimen tekemään kyseisen kutsun ilman käyttäjän lupaa. Kyseisiä
-hyökkäyksiä kutsutaa
+hyökkäyksiä kutsutaan
 [CSRF-hyökkäyksiksi](https://owasp.org/www-community/attacks/csrf).
 
 Järjestelmän toiminta on suunniteltava siten, että selaimen
