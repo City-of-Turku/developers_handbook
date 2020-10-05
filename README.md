@@ -37,6 +37,11 @@ toimittaa tekemällä pull requestin.
 ### Suorituskyky
 
  * [Järjestelmän on vastattava käyttäjälle alle 500 ms](./vaatimukset/0008-vastaa-riittavan-nopeasti.md) 
+ 
+### Valvonta
+
+ * [Projektien tulee tarjota metriikka statsd-muodossa](./vaatimukset/0027-statsd-metriikat.md)
+ * [Logi tuotetaan JSON-muodossa stdout-virtaan](./vaatimukset/0028-json-logging-stdouttiin.md)
    
 ### Tietoturva
 
@@ -62,9 +67,7 @@ toimittaa tekemällä pull requestin.
  * [Käyttäjän tietoja ei saa tallenta ilman lupaa](./vaatimukset/0024-ilman-lupaa-ei-saa-tallentaa.md)
  * [Käyttäjän tiedot on saatava ulos järjestelmästä](./vaatimukset/0025-tiedot-on-saatava-ulos.md)
  * [Järjestelmän on mahdollistettava käyttäjien tietojen tuhoaminen](./vaatimukset/0026-tiedot-on-voitava-poistaa.md)
- * [Projektien tulee tarjota metriikka statsd-muodossa](./vaatimukset/0027-statsd-metriikat.md)
- * [Logi tuotetaan JSON-muodossa stdout-virtaan](./vaatimukset/0028-json-logging-stdouttiin.md)
- 
+
 ### Saavutettavuus
 
  * [Järjestelmien saavutettavuuden taso on vähintään WCAG 2.1 AA](./vaatimukset/0029-saavutettavuustaso-on-wcag-2-1-aa.md)
