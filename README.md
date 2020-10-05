@@ -40,7 +40,6 @@ toimittaa tekemällä pull requestin.
  
 ### Valvonta
 
- * [Projektien tulee tarjota metriikka statsd-muodossa](./vaatimukset/0027-statsd-metriikat.md)
  * [Logi tuotetaan JSON-muodossa stdout-virtaan](./vaatimukset/0028-json-logging-stdouttiin.md)
    
 ### Tietoturva
