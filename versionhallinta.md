@@ -26,7 +26,7 @@ normaalisti. Haara liitetään `master`-haaraan lisäksi `develop`-haaraan.
 
 Kun koodia ollaan liittämässä `develop`-haaraan, se on tehtävä pull
 requestin (PR) kautta. PR:n otsikon ja kuvauksen tulee noudattaa PR:n muotoiluohjeistusta
-(kts. [PR template](./docs/pull_request_template.md)) 
+(kts. [PR template](./docs/pull_request_template.md)). 
 Tullakseen liitetyksi koodi tarvitsee Turun kaupungin teknisen projektipäällikön 
 sekä vähintään yhden tiiminjäsenen puollon. Tämän lisäksi CI-ajon on mentävä lävitse
 (kts. [CI-ympäristö](./ci-ymparisto.md))
