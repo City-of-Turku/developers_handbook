@@ -6,7 +6,7 @@ Turun kaupungin tietojärjestelmät koostuvat pääasiassa monoliittisella
 arkkitehtuurilla toteutetuista tietyn sovellusalueen järjestelmistä, joiden
 välillä on löyhä integraatio. Karkeasti järjestelmä on kahtiajakoinen. Se
 koostuu kaupunkien välisen yhteiskehittämisen tuottamista avoimen lähdekoodin
-palveluita sekä [palveluväylän](https://knowledge.solita.fi/x/CROlBw)
+palveluista sekä [palveluväylän](https://knowledge.solita.fi/x/CROlBw)
 palveluista. Avoimen lähdekoodin palvelut löytyvät
 [githubista](https://github.com/City-of-Turku).
 

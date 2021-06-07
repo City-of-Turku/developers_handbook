@@ -10,7 +10,7 @@ v-kirjaimen ja versionumeron. Version "1.2.3" merkitään tägillä "v1.2.3".
 
 Julkaisun versionumeron tulee yksiselitteisesti liittää paketti johonkin
 versionhallinnan kohtaan. Tämä on äärimmäisen tärkeää virhetilanteita
-selvitettäessä.  Kyseisen versionhallinnan kohdan on myös aina toimittava
+selvitettäessä. Kyseisen versionhallinnan kohdan on myös aina toimittava
 samalla tavalla.
 
 Version tulee olla näkyvissä tuotteen paketoinnissa. Tiedoston nimi voi olla

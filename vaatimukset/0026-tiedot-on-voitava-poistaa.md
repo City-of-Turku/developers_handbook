@@ -8,6 +8,6 @@ kaupunki ei tarvitse lakisääteisten velvollisuuksien hoitamisessa.
 
 Tietojen poistamisessa on huomioitava myös tietokantojen varmuuskopiot ja
 logit. Jos järjestelmä joudutaan palauttamaan varmuuskopiosta, käyttäjän tiedot
-eivät saa palautua järjestelmään. Koska tietojen poistoon on aikaa kuukausi
-kannattaa pyrkiä henkilötietoja sisältävien logien tallentaminen rajoittaa
+eivät saa palautua järjestelmään. Koska tietojen poistoon on aikaa kuukausi,
+kannattaa pyrkiä rajoittamaan henkilötietoja sisältävien logien tallentaminen 
 kuukauden pituuteen (jos lait ja asetukset eivät muuta vaadi).

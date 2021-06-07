@@ -2,9 +2,9 @@
 
 # Salasanojen vertaileminen on tehtävä hash-arvojen avulla
 
-Käyttäjien salasanoja ei tallenneta selväkielisinä.  Salasanan vertaileminen
+Käyttäjien salasanoja ei tallenneta selväkielisinä. Salasanan vertaileminen
 esimerkiksi sisäänkirjautumistilanteessa on tehtävä
-[hash-arvojen](https://en.wikipedia.org/wiki/Hash_function) avulla.  Salasanan
+[hash-arvojen](https://en.wikipedia.org/wiki/Hash_function) avulla. Salasanan
 hash-arvoa laskettaessa on käytettävä
 ns. [suolaa](https://en.wikipedia.org/wiki/Salt_(cryptography)). Yleisesti
 algoritmi näyttää seuraavalta.
@@ -36,7 +36,7 @@ asennuskohtaista salaista arvoa.
 
     hash = hashAlgoritmi(suola+pippuri+salasana)
     
-Kannan sijaan arvo on tallennettu esimerkiksi asetustiedostoon.  Tämä
+Kannan sijaan arvo on tallennettu esimerkiksi asetustiedostoon. Tämä
 hankaloittaa (tai jopa estää) yksinkertaisien salasanojen murtamista
 tilanteessa, jossa hyökkääjä on saanut hash-arvot haltuunsa varastamalla
 tietokannan sisällön.

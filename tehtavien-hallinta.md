@@ -9,7 +9,7 @@ vaan annetaan perusperiaatteet tehtävienhallinnan käyttämisestä.
 ## Käyttäjätarinat
 
 Tehtävät kuvataan ketterille menetelmille tyypilliseen tapaan käyttäjätarinoina.
- Lähtökohtaisesti käyttäjätarinan pitäisi vastata kolmeen kysymykseen:
+Lähtökohtaisesti käyttäjätarinan pitäisi vastata kolmeen kysymykseen:
 
  - Kuka?
  - Mitä?
@@ -29,7 +29,7 @@ Esimerkiksi:
  
  > "Käyttäjä haluaa kirjautua Google-tunnuksilla, jotta hänen ei tarvitse muistaa taas uutta salasanaa."
  
-On tärkeä, että kaikki kolme (kuka,mitä,miksi) kohtaa ovat esillä
+On tärkeää, että kaikki kolme (kuka, mitä, miksi) kohtaa ovat esillä
 tarinassa. Valmiiseen sapluunaan ei kannata hirttäytyä vaan käyttää sitä
 ohjenuorana. Sapluunan käyttö varmistaa, että kaikki osat tulevat mietityiksi ja
 kirjatuiksi. Mitä ytimekkäämmin ja yksiselitteisesti asiat voidaan ilmaista, sen
@@ -41,19 +41,19 @@ ilman, että tarinoiden muoto varsinaisesti muuttuu:
  
  > "Käyttäjä haluaa kirjautua Google-tunnuksilla välttyäkseen uuden salasanan muistamiselta."
  
-Jos mahdollista sana "käyttäjä" kannattaa korvata tarkemmalla roolin
+Jos mahdollista, sana "käyttäjä" kannattaa korvata tarkemmalla roolin
 nimellä ("ylläpitäjä", "matkustaja" jne.). Erityisesti niissä
 tapauksissa, joissa kehittäjät tai ylläpitäjät vaativat jotakin
-ominaisuutta tämä olisi hyvä merkitä.
+ominaisuutta, tämä olisi hyvä merkitä.
 
 > "Ylläpitäjä haluaa logit katseltavaksi järjestelmään X, jotta virhetilanteiden selvittäminen on helppoa."
 
-Erityisesti rooli sanat kannattaa pitää mahdollisimman lyhyinä. Ne
+Erityisesti roolisanat kannattaa pitää mahdollisimman lyhyinä. Ne
 toistuvat samoina tarinoiden alussa ja ihmissilmä pitkälti sivuuttaa
 ne. Englannin kielessä dev ja ops lyhenteet voivat olla käteviä
 kehittäjistä ja ylläpitäjistä puhuttaessa. Oleellista on kuitenkin
-aina käyttää samaa termiä samasta roolista. Projektin tulee omalla
-kohdallaan miettiä, mitkä roolit ovat järjestelmälle oleellisia.
+aina käyttää samaa termiä samasta roolista. Jokaisen projektin kohdalla
+tulee miettiä, mitkä roolit ovat järjestelmälle oleellisia.
 
 ## Tekniset tehtävät
 
@@ -80,9 +80,9 @@ toteutuksen kanssa mennään tuotantoon. Tarina ei valmistu ennen kuin
 se on kunnolla toteutettu. Näissä tilanteissa varsinaista bugia ei ole
 tarpeen merkitä vaan tarinaan kirjataan havaitut puutteet.
 
-Joskus syntyy tilanteita, että uuden toiminnallisuuden toteuttaminen
+Joskus syntyy tilanteita, joissa uuden toiminnallisuuden toteuttaminen
 muuttaa jo kerran toteutettuja ominaisuuksia ei-toivotulla
-tavalla. Tällaisessa tilanteessa on kirjattava bugi. Oleellista
+tavalla. Tällaisissa tilanteissa on kirjattava bugi. Oleellista
 bugissa on vähintään kirjata
 
  1. Miten järjestelmä toimii nyt?
@@ -93,7 +93,7 @@ Esimerkiksi:
  > "Bug: Nappula on vihreä, pitäisi olla punainen."
  
 Bugeja käsiteltäessä on hyvä huomata, että bugi ja sen korjaaminen
-voivat eri tehtäviä. Erityisesti monimutkaisissa järjestelmissä voi
+voivat olla eri tehtäviä. Erityisesti monimutkaisissa järjestelmissä voi
 syntyä tilanne, jossa järjestelmässä vika on niin syvällä, että sen
 korjaaminen ei onnistu yhdellä askeleella. Tällöin korjaukset tulee
 kirjoittaa käyttäjätarinoilla.

@@ -28,7 +28,7 @@ varmistettava, että laadunvarmistuksen ja tuotannon resurssit ovat riittävilt�
 osin käytettävissä heti alusta alkaen.
 
 On tärkeää huomata, että tuotantoon viemisen ei tarvitse automaattisesti
-tarkoittaa julkaisemista. Ne kannattaa erottaa toisistaan.  Järjestelmä
+tarkoittaa julkaisemista. Ne kannattaa erottaa toisistaan. Järjestelmä
 kannattaa suunnitella siten, että uusia ominaisuuksia voidaan viedä tuotantoon
 piilossa käyttäjiltä. Tarvittaessa ominaisuus voidaan julkaista aluksi
 esimerkiksi rajoitetulle käyttäjäjoukolle ja ongelmien ilmetessä kytkeä nopeasti
