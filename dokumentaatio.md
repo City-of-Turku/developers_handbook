@@ -3,7 +3,7 @@
 # Dokumentaatio
 
 Versionhallinnan tulee sisältää `readme.md`-tiedosto, joka kuvaa: mistä
-projektissa on kyse ja miten projektin kehitysympäristö pystytetään.  Tämän
+projektissa on kyse ja miten projektin kehitysympäristö pystytetään. Tämän
 lisäksi on hyvä kertoa mahdollisesti käytetyt tekniikat, projektin rakenne ja
 arkkitehtuuri. Erityisesti on syytä kertoa, jos toteutuksessa on poikettu
 yleisistä tavoista tai käytänteistä.
@@ -19,7 +19,7 @@ tarvittaessa. Kommenteissa tulisi keskittyä kertomaan, miksi jokin asia tehdä�
 ei miten se tehdään. Koodi itsessään on kertomus siitä, miten asia tehdään.
 Jotta tämä onnistuu, on koodin oltava selvästi virheetöntä ja ymmärrettävää.
 
-Dokumentaatiota kirjoittaessa tulee miettiä lukijan tarpeita. Minkälainen
+Dokumentaatiota kirjoittaessa tulee miettiä lukijan tarpeita: minkälainen
 kohdeyleisö tekstiä pääasiassa lukee ja mitkä asiat heitä
 kiinnostavat. Tyypillisiä asioita, jotka usein jätetään dokumentoimatta ovat
  - missä tilanteessa, miten ja miksi ratkaisua on tarkoitettu käytettäväksi,
@@ -33,7 +33,7 @@ Kaikki dokumentaatio kannattaa sijoittaa mahdollisimman lähelle koodia eli
 samaan versiohallintaan itse ohjelman kanssa. Muutettaessa ohjelman toimintaa
 tulisi dokumentaatio muuttaa samalla kertaa. Tätä on vaikea valvoa, jos muutosta
 ei voida tehdä samassa pull requestissa. Ohjekirjat yms. kannattaa pyrkiä
-julkaisemaan projektin versionhallinnasta sen sijaan, että niitä pidettäisiin
+julkaisemaan projektin versionhallinnassa sen sijaan, että niitä pidettäisiin
 yllä erillisinä dokumentteina jossakin muualla.
 
 

@@ -4,8 +4,8 @@
 - Yhteiskehittäminen-luku:
   - Miten kommunikaatio hoidetaan?
   - Kukaa projektin omistaa? Kuka tekee päätökset?
-  - Miten PRät hoidetaan?
-  - Versionhallinan käyttö. Kannattaa miettiä mistä haaran aloittaa, jotta se on muidenkin käytettävissä.
+  - Miten PR:t hoidetaan?
+  - Versionhallinnan käyttö. Kannattaa miettiä mistä haaran aloittaa, jotta se on muidenkin käytettävissä.
   - Toteuttajakohtaisten asioiden poistaminen reposta (estää merget)
     - Kaupunkikohtaiset testiasetukset
     - Kaupunkien nimet yms.

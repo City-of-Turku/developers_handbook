@@ -15,7 +15,7 @@ käytetään versiota 3.6.x.
 
 ## JavaScript
 
-Palvelin toteutuksissa käytetään node.js versiota 12.x. Selaimessa
+Palvelintoteutuksissa käytetään node.js versiota 12.x. Selaimessa
 käytetään EcmaScript-tasoa 6, koodi ajetaan ns. strict-tilassa ("use
 strict").
 
@@ -23,7 +23,7 @@ strict").
 
 Lähdekoodin muotoilun tarkoituksena on, että riippumatta koodin kirjoittajasta
 koodi näyttää samalta. Yleisesti koodi kirjoitetaan UTF-8 koodausta käyttäen.
-Riivit päättyvät rivinvaihtoon (0x10). Koodin tuottamiseen käytetään pääasiassa
+Rivit päättyvät rivinvaihtoon (0x10). Koodin tuottamiseen käytetään pääasiassa
 Visual Studio Codea. Saman editorin käyttäminen helpottaa yhtenäisen muotoilun
 tuottamista.
 
@@ -37,7 +37,6 @@ Muotoilun pakottamiseen käytetään Maven lisäosaa
 [fmt-maven-plugin](https://github.com/coveooss/fmt-maven-plugin).
 Visual Studio Coden käyttön löytyy myös
 [ohjeet](https://www.sethvargo.com/using-google-java-format-with-vs-code/).
-
 
 ## Python
 

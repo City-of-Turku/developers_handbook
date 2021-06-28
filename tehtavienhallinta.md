@@ -9,7 +9,7 @@ vaan annetaan perusperiaatteet tehtävienhallinnan käyttämisestä.
 ## Käyttäjätarinat
 
 Tehtävät kuvataan ketterille menetelmille tyypilliseen tapaan käyttäjätarinoina.
- Lähtökohtaisesti käyttäjätarinan pitäisi vastata kolmeen kysymykseen:
+Lähtökohtaisesti käyttäjätarinan pitäisi vastata kolmeen kysymykseen:
 
  - Kuka?
  - Mitä?

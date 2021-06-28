@@ -3,7 +3,7 @@
 # CI-ympäristö
 
 Turun kaupungin palveluvälän integraatioalusta on kuvattu
-[Confluencessa](https://knowledge.solita.fi/x/CYz9Bg).  Palveluväylään
+[Confluencessa](https://knowledge.solita.fi/x/CYz9Bg). Palveluväylään
 integroituville Javalla tehdyille web-sovelluksille on valmis CI-putki olemassa.
 Muut palvelut joutuvat rakentamaan sellaisen itse. Työkaluna voi käyttää
 esimerkiksi [Travis CI:tä](https://travis-ci.org/).

@@ -55,14 +55,14 @@ laatu ei ole riittävällä tasolla.
 ## Commit-viestit
 
 Versionhallintaan tehtävien muutosten kommenttien on viitattava
-tehtävänhallinan tehtävään. Itse kuvaus kirjoitetaan muodossa, joka
+tehtävänhallinnassa olevaan tehtävään. Itse kuvaus kirjoitetaan muodossa, joka
 kuvaa tuotteen toiminnan muutoksen jälkeen. Kommentit kirjoitetaan
 englanniksi.
 
     User can remove unnecessary address from address list (JIRA-1234)
 
-Versionhallinta kommenteista on siivottava toisiaan korjaavat muutokset pois
-PRän hyväksymistä. Seuraavan kaltaisen historian liittäminen ei ole
+Versionhallinnan kommenteista on siivottava toisiaan korjaavat muutokset pois
+ennen PR:n hyväksymistä. Seuraavan kaltaisen historian liittäminen ei ole
 hyväksyttävää.
 
     3: Added file forgoten from last commit
@@ -75,8 +75,8 @@ Muutokset tulee liittää yhdeksi ehjäksi muutokseksi (kts. [git-dokumentaatio]
 
 Tämä ei tarkoita, että kaikki muutokset olisi syytä yhdistää. Erillisiä
 muutoksia on syytä käyttää, jotta työn vaiheistus ja oikeellisuuden
-tarkastaminen on mahdollista. Esimerkiksi tiedoston sisennyksien uudelleen
-järjestelyä ja varsinaista muutosta ei saa tehdä samassa
+tarkastaminen on mahdollista. Esimerkiksi tiedoston sisennyksien 
+uudelleenjärjestelyä ja varsinaista muutosta ei saa tehdä samassa
 muutoksessa. Katselmoijan on käytännössä mahdoton lukea, mitä on muuttunut. Sen
 sijaan muutos pitää toteuttaa toistensa päälle rakentuvilla peräkkäisillä
 muutoksilla.
