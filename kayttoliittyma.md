@@ -21,7 +21,7 @@ muun muassa
    - Talkback (Android)
 
 Selaimelle tehtävien toteutusten on tuettava seuraavien selainten alle vuoden
-vanhoja versioita.
+vanhoja versioita (stable pipeline).
 
  - Microsoft Edge
  - Google Chrome
