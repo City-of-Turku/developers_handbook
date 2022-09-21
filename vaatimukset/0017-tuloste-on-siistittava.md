@@ -23,7 +23,7 @@ Logi on yksi ulostulon muoto, joka helposti sivuutetaan. Vaikka kirjasto
 huolehtisi ulostulon siistimisen sinänsä voi olla, että se ei rajaa tulosteen
 pituutta. Jos virhetilanteissa logitetaan käyttäjän lähettämä kutsu
 sellaisenaan,voi tämä mahdollistaa hyökkäyksen, jossa logiin tuotetaan
-gigatolkukka roskaa.
+gigatolkulla roskaa.
 
 Viittauksissa ulkoisiin järjestelmiin tai komentorivien käskyjen tuottamisessa
 on oltava myös tarkkana. Jos järjestelmä käyttää käyttäjän syötettä
