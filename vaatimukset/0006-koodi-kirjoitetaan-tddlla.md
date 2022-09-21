@@ -1,6 +1,6 @@
 [Takaisin päätasolle](./../README.md)
 
-# Kaikki koodi tuotetaan kirjoittamalla testi ensin
+# Kaikki koodi tuotetaan kirjoittamalla testi ensin, jos mahdollista määritteiden puitteissa
 
 Ohjelmistot rakennetaan [TDD-metodologialla](https://en.wikipedia.org/wiki/Test-driven_development):
 
