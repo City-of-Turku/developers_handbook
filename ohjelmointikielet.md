@@ -11,11 +11,11 @@ välttämiseksi Javalla tehtävien toteutusten on toimittava OpenJDK-jakelulla.
 ## Python
 
 Python on Turun kaupungin pääkieli taustatoteutuksiin. Pythonista
-käytetään versiota 3.6.x.
+käytetään versiota 3.8.x.
 
 ## JavaScript
 
-Palvelintoteutuksissa käytetään node.js versiota 12.x. Selaimessa
+Palvelintoteutuksissa käytetään node.js versiota 16.x. Selaimessa
 käytetään EcmaScript-tasoa 6, koodi ajetaan ns. strict-tilassa ("use
 strict").
 
@@ -40,7 +40,7 @@ Visual Studio Coden käyttön löytyy myös
 
 ## Python
 
-Toteutuksissa käytetään vähintään 3.6 versiota. Koodaustyyli on
+Toteutuksissa käytetään vähintään 3.8 versiota. Koodaustyyli on
 [PEP8](https://www.python.org/dev/peps/pep-0008/) mukainen. Tyylin tarkastukseen
 käytetään [pylint](https://pylint.org/)-ohjelmaa.
 
