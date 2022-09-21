@@ -12,7 +12,7 @@ hyökkäyksiä kutsutaan
 Järjestelmän toiminta on suunniteltava siten, että selaimen
 huijaaminen 3. osapuolen toimesta ei ole mahdollista. Käytännössä tätä voidaan
 välttää siten, että GET-kutsut eivät koskaan muuta järjestelmän tilaa. Tämän
-lisäksi voidaan joutua käyttämään erillistä kertaköyttöistä tunnistetta kutsujen
+lisäksi voidaan joutua käyttämään erillistä kertakäyttöistä tunnistetta kutsujen
 valtuuttamiseen. Tunnistetta generoitaessa on varmistuttava, että sitä ei voida
-arvata ulkopäin.
+arvata ulkoapäin.
 
